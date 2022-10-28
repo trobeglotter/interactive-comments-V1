@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alata&family=Rubik:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>FEM Interactive Comments</title>
+	</head>
+	<body>
+		<div class="container" id="container">
+			<div class="comment-container-outter" id="comment-container-outter">
+				<div class="comment-container-inner">
+					<div class="counter">
+						<p class="counter-button counter-button-increase">+</p>
+						<p class="counter-count">0</p>
+						<p class="counter-button counter-button-decrease">-</p>
+					</div>
+				</div>
+				<div class="comment-container-inner">
+					<div class="comment-container-inner-header">
+						<div class="profile-container">
+							<div class="profile-img">
+								<img
+									class="profile-image"
+									src="images/avatars/image-amyrobson.webp"
+									alt=""
+								/>
+							</div>
+							<div class="username">amyrobson</div>
+							<div class="timestamp">1 month ago</div>
+						</div>
+						<div class="reply-container">
+							<img src="images/icon-reply.svg" alt="" />
+							<div class="reply-button">Reply</div>
+						</div>
+					</div>
+					<div class="comment">
+						Impressive! Though it seems the drag feature could be improved. But
+						overall it looks incredible. You've really nailed the design and the
+						responsiveness at various breakpoints works really well.
+					</div>
+				</div>
+			</div>
+		</div>
+		<p id="NEW-COMMENT"></p>
+		<script src="app.js"></script>
+	</body>
+</html>
